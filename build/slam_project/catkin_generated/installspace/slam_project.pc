@@ -1,0 +1,8 @@
+prefix=/home/asd/catkin_ws/install
+
+Name: slam_project
+Description: Description of slam_project
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
