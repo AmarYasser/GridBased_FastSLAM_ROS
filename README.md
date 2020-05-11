@@ -11,6 +11,7 @@ cd ~/{catkin_workspace}
 source devel/setup.bash
 rosdep -i install turtlebot_gazebo
 rosdep -i install turtlebot_teleop
+rosdep install gmapping
 catkin_make
 source devel/setup.bash
 ```
@@ -32,3 +33,8 @@ You can use the configured .rviz file included
 - SLAM
 
   `rosrun gmapping slam_gmapping`
+  
+- Map Server
+ `rosrun map_server map_saver -f myMap`
+ 
+ With the map_server you can load and save maps. Running map_server will generate the map.pgm and the map.yaml files
