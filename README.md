@@ -22,9 +22,9 @@ source devel/setup.bash
  `roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=worlds/willowgarage.world`
 
 - Rviz 
-  `rviz rviz`
+  `rosrun rviz rviz`
 
-You can use the configured .rviz file included
+You can use the configured .rviz file included `/src/Turtlebot_Gmapping.rviz` 
 
 - Teleop
 
